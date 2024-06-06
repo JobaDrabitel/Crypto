@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FP", "FP\FP.csproj", "{5BB8ACE4-9F6B-499A-9298-247D184F37D9}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{E2A1BD92-11DE-4BA3-9EE4-DD5F70EB850D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VerifyBot", "VerifyBot\VerifyBot.csproj", "{E89DE2E0-7143-4995-84C2-A08E368A4AAC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5BB8ACE4-9F6B-499A-9298-247D184F37D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BB8ACE4-9F6B-499A-9298-247D184F37D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BB8ACE4-9F6B-499A-9298-247D184F37D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BB8ACE4-9F6B-499A-9298-247D184F37D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2A1BD92-11DE-4BA3-9EE4-DD5F70EB850D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2A1BD92-11DE-4BA3-9EE4-DD5F70EB850D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2A1BD92-11DE-4BA3-9EE4-DD5F70EB850D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2A1BD92-11DE-4BA3-9EE4-DD5F70EB850D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E89DE2E0-7143-4995-84C2-A08E368A4AAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E89DE2E0-7143-4995-84C2-A08E368A4AAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E89DE2E0-7143-4995-84C2-A08E368A4AAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E89DE2E0-7143-4995-84C2-A08E368A4AAC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A1FE740-65D0-44ED-8D6F-D1210983D6FF}
+	EndGlobalSection
+EndGlobal

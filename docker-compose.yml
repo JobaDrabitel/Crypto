@@ -1,0 +1,37 @@
+services:
+  fp:
+    image: ${DOCKER_REGISTRY-}fp
+    build:
+      context: .
+      dockerfile: FP/Dockerfile
+    ports:
+      - 5000:80
+    env_file: .env
+  bot:
+    image: ${DOCKER_REGISTRY-}bot
+    build:
+      context: .
+      dockerfile: VerifyBot/Dockerfile
+    
+  
+  postgres:
+    image: postgres:latest
+    env_file: .env
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - 5430:5432
+
+  crypto:
+    image: crypto:v3
+    env_file: python.env
+    ports:
+      - 5010:5010
+    
+  ethapi:
+    image: eth:latest
+    ports:
+      - 5011:5011
+
+volumes:
+  postgres_data:
